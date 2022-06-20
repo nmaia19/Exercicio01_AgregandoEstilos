@@ -47,8 +47,52 @@
   height: 259px;
 }
 
+.content {
+  width: 608px;
+  height: 259px;
+
+  padding-top: 37px;
+}
+
 article {
+  float: left;
   width: 256px;
   height: 242px;
+  background: hsla(0, 0%, 93%, 1);
+}
+
+article:nth-child(2) {
+  margin-left: 96px;
+}
+
+.loft-description {
+  padding: 12px;
+}
+.loft-description__header {
+  width: 231px;
+  height: 33px;
+  margin-bottom: 12px;
+}
+
+.loft-description__header h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+
+  color: #888888;
   float: left;
+}
+
+.loft-description__header .tag {
+  float: right;
+}
+
+article p {
+  font-size: 10px;
+  line-height: 11px;
+  text-align: justify;
+
+  color: #555555;
+
+  margin-top: 12px;
 }
